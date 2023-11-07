@@ -59,3 +59,13 @@ limit 1;
 select Outcome,Job,avg(NoOfContacts) as average_contacts
 from car_insurance_data
 group by Outcome,Job
+
+
+6. Determine the month with the highest total 'Balance' of
+customers.
+
+select LastContactMonth as month ,sum(balance) as total_balance
+from car_insurance_data
+group by LastContactMonth
+order by total_balance desc
+limit 1;
