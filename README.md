@@ -96,9 +96,6 @@
 
 - "In conclusion, this project taught me a lot about data analysis, Hive, and the importance of extracting actionable insights from complex datasets. I learned how to handle real-world data challenges and use advanced techniques to drive meaningful conclusions."
 
-This revised explanation allows you to highlight your individual contributions and skills throughout the project.
-
-
 
 
 
