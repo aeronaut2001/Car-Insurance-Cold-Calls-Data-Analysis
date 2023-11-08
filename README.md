@@ -9,53 +9,118 @@
 ---
 
 ## Car Insurance Cold Calls Data Analysis using Apache Hive 🐝
-Gain the **job-ready skills** for an entry-level data analyst role through this eight-course Professional Certificate from IBM and position yourself competitively in the thriving job market for data analysts, which will see a 20% growth until 2028 (U.S. Bureau of Labor Statistics).
-
-Power your data analyst career by learning the core principles of data analysis and gaining hands-on skills practice. You’ll work with a variety of data sources, project scenarios, and data analysis tools, including Excel, SQL, Python, Jupyter Notebooks, and Cognos Analytics, gaining practical experience with data manipulation and applying analytical techniques.
-
+📝 Gain the skills 
 ---
 
-## 🥇 Professional Certificate
-
-- [x] [__IBM Data Analyst__](https://github.com/aeronaut2001/IBM_DATA_ANALYST/blob/main/CERTIFICATE/final.png)
-
-This IBM Professional Certificate is earned after successfully completing 9 courses on various topics in Data Analytics. The learner understands the core principles of data analysis and has worked hands-on with a variety of data sources, project scenarios, and data analysis tools, including Excel, SQL, Relational Databases, Python, Jupyter Notebooks, and Cognos Analytics, gaining practical experience with data manipulation, data analysis, and data visualization. The earner of this Certificate has demonstrated proficiency in applying different analytical techniques by analyzing real-world datasets, creating visualizations & interactive dashboards, and presenting reports to share findings of data analysis, and is now equipped with skills for an entry-level role in data analytics.
-
-<p align="center">
-<img src="/CERTIFICATE/final.png" width=60% height=60%>
-
- ---
- 
- 
-
-## 📙 Course Structures :
-
-
-
- 
-There are 9 Courses in this Professional Certificate Specialization are as follows:
-- [x] [__Introduction to Data Analytics__](https://github.com/aeronaut2001/IBM_DATA_ANALYST/blob/main/CERTIFICATE/1.png)
-
-This course presents a gentle introduction into the concepts of data analysis, the role of a Data Analyst, and the tools that are used to perform daily functions. You will gain an understanding of the data ecosystem and the fundamentals of data analysis, such as data gathering or data mining.
-
-<p align="center">
-<img src="/CERTIFICATE/1.png" width=60% height=60%>
- 
- 
-
-- [x] [__Excel Basics for Data Analysis__](https://github.com/aeronaut2001/IBM_DATA_ANALYST/blob/main/CERTIFICATE/2.png)
-
-This course is designed to provide you with basic working knowledge for using Excel spreadsheets for Data Analysis. It covers some of the first steps for working with spreadsheets and their usage in the process of analyzing data.  It includes plenty of videos, demos, and examples for you to learn, followed by step-by-step instructions for you to apply and practice on a live spreadsheet.
-
-<p align="center">
-<img src="/CERTIFICATE/2.png" width=60% height=60%>
 
  
  
 
-- [X] [__Data Visualization and Dashboards with Excel and Cognos__ ](https://github.com/aeronaut2001/IBM_DATA_ANALYST/blob/main/CERTIFICATE/3.png)
+## 📙 Project Structures :
 
-This course covers some of the first steps in the development of data visualizations using spreadsheets and dashboards. 
 
-<p align="center">
-<img src="/CERTIFICATE/3.png" width=60% height=60%>
+- [x] **Project Introduction**:
+- "I worked on an individual data analysis project using Apache Hive. The project involved delving into a dataset related to car insurance, with the goal of uncovering valuable insights and patterns."
+
+- [x] **Problem Statement**:
+- "The main challenge for me was to analyze this dataset and derive meaningful conclusions. I wanted to understand customer behavior, identify trends, and see how various factors, like job categories, age groups, and communication methods, influenced the outcomes."
+
+- [x] **Data Loading**:
+- "To get started, I had to load the dataset into Hive. I created an external table with the provided schema and loaded the data from a text file or an HDFS path. This step allowed me to start working with the data effectively."
+
+- [x] **Data Exploration**:
+- "I began by exploring the dataset:
+  - I counted the number of records, which was my starting point.
+  - I found several unique job categories among the customers.
+  - I grouped customers by age into categories: 18-30, 31-45, 46-60, and 61+.
+  - I identified and addressed records with missing values to ensure data quality.
+  - I looked at different 'Outcome' values and their respective frequencies.
+  - Lastly, I determined how many customers had both a car loan and home insurance."
+
+- [x] **Aggregations**:
+- "I performed several aggregations on the dataset to uncover insights:
+  - I calculated the average, minimum, and maximum balance for each job category.
+  - I found the total number of customers with and without car insurance.
+  - I counted the number of customers for each communication type.
+  - I summed up the 'Balance' for each 'Communication' type.
+  - I also looked at the 'PrevAttempts' count for each 'Outcome' type.
+  - Finally, I compared the average 'NoOfContacts' between customers with and without 'CarInsurance'."
+
+- [x] **Partitioning and Bucketing**:
+- "I then organized the data into partitioned and bucketed tables:
+  - I created a partitioned table based on 'Education' and 'Marital' status.
+  - Another table was bucketed into 4 age groups as specified in the project requirements.
+  - I added an additional partition on 'Job' to the partitioned table and moved data accordingly.
+  - I increased the number of buckets to 10 in the age bucketed table and redistributed the data."
+
+- [x] **Optimized Joins**:
+- "Optimizing my queries was crucial. I joined the original table with the partitioned and bucketed tables to find valuable insights, such as calculating averages and totals for specific attributes."
+
+- [x] **Window Functions**:
+- "I used window functions for more advanced analysis:
+  - I calculated cumulative sums, running averages, maximum values, and ranks for different combinations of attributes."
+
+- [x] **Advanced Aggregations**:
+- "For deeper insights, I carried out advanced aggregations:
+  - I identified job categories with the highest car insurance uptake.
+  - I pinpointed the month with the highest number of last contacts.
+  - I calculated the ratio of customers with and without car insurance for each job category."
+
+- [x] **Complex Joins and Aggregations**:
+- "I delved into complex joins and aggregations to understand customer behavior more deeply."
+
+- [x] **Advanced Window Functions**:
+- "I also applied advanced window functions to calculate differences, identify top performers, and compute moving averages."
+
+- [x] **Performance Tuning :**
+
+- "In the final phase, I experimented with different file formats, compression levels, and Hive optimization techniques to assess their impact on query performance. This was crucial for optimizing my analysis."
+
+- [x] **Key Takeaways :**
+
+- "In conclusion, this project taught me a lot about data analysis, Hive, and the importance of extracting actionable insights from complex datasets. I learned how to handle real-world data challenges and use advanced techniques to drive meaningful conclusions."
+
+This revised explanation allows you to highlight your individual contributions and skills throughout the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
